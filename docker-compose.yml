@@ -16,7 +16,7 @@ services:
       - './docker/nginx_server/conf.d:/etc/nginx/conf.d'
       - .:/var/www/html:cached
     ports:
-      - 80:80
+      - 81:80
     depends_on:
       - nginx_server_php
       - mysql
