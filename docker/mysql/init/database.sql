@@ -1,4 +1,4 @@
-USE rev_nginx_caching
+USE db1
 CREATE TABLE user (
   userId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   username VARCHAR(100),
