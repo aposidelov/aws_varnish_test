@@ -48,8 +48,6 @@ services:
     container_name: "nginx_server_mysql"
     image: mysql:5
     volumes:
-      - './docker/logs/mysql:/var/log/mysql'
-      - './docker/mysql:/etc/mysql/conf.d'
       - './docker/mysql/init:/docker-entrypoint-initdb.d/:ro'
     command: --max_allowed_packet=64M
     environment:
