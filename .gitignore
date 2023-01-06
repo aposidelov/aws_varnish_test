@@ -1,3 +1,4 @@
 Home.pem
 .idea/*
 .DS_Store
+certbot/*
