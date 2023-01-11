@@ -6,7 +6,7 @@ services:
     image: hitch
     volumes:
       - ./docker/hitch/hitch.conf:/etc/hitch/hitch.conf
-      - ./certbot/www:/etc/hitch/certs/
+      - ./cert-hitch:/etc/hitch/certs/
     ports:
       - "443:443"
     depends_on:
