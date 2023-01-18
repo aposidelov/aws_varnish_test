@@ -44,6 +44,7 @@ sub vcl_deliver {
 acl purge {
   "localhost";
   "127.0.0.1";
+  "18.197.150.132";
   "::1";
   "nginx_server_php";
 }
